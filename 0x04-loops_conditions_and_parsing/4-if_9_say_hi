@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#The fourth task
+COUNTER=0
+while [ $COUNTER -lt 11 ]
+do
+    if [ $COUNTER = 9 ]
+    then
+        echo "Hi"
+    else
+        echo "Best School"
+    fi
+    let COUNTER+=1
+done
